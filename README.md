@@ -14,3 +14,9 @@ python DLfinalProject.py --output_dir /output/
     --target_lang target
 ```
             
+```
+python evaluateDLproject.py --results_file /test_results_mt5.pickle 
+    --tokenizer_name google/mt5-small
+    --save_dir /output
+    --model_name mt5
+```
