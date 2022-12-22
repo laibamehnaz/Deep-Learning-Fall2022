@@ -1,8 +1,8 @@
-# Deep-Learning-Fall2022
-Final project for Deep Learning Fall2022
+# Deep Learning 2022 Final project
 
-to run the code:
+To run our code use the following commands:
 
+#### Training the model on mT5
 ```
 python DLfinalProject.py --output_dir /output/ 
     --train_data_dir /train_df.csv 
