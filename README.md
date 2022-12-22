@@ -13,10 +13,34 @@ python DLfinalProject.py --output_dir /output/
     --source_lang source 
     --target_lang target
 ```
-            
+#### Training the model on mBART
 ```
-python evaluateDLproject.py --results_file /test_results_mt5.pickle 
+python DLfinalProject.py --output_dir /output/ 
+    --train_data_dir /train_df.csv 
+    --test_data_dir /test_df.csv 
+    --val_data_dir /val_df.csv 
+    --model_name facebook/mbart-large-cc25
+    --epochs 15 
+    --source_lang source 
+    --target_lang target
+```
+Note: The above command uses mBART, however, in our paper we have used student mBART. If you wish to use student mBART, please contact us on lm4428@nyu.edu or gg2612@nyu.edu. 
+
+
+To evaluate the generated predictions use the following code:
+
+### To evaluate generated predictions for mT5
+```
+python evaluateDLproject.py --results_file /pickles/test_results_mt5.pickle 
     --tokenizer_name google/mt5-small
-    --save_dir /output
+    --save_dir /output/
     --model_name mt5
+```
+
+### To evaluate generated predictions for mBART
+```
+python evaluateDLproject.py --results_file /pickles/test_results_mBART.pickle 
+    --tokenizer_name facebook/mbart-large-cc25
+    --save_dir /output/
+    --model_name mBART
 ```
