@@ -1,5 +1,8 @@
 # Deep Learning 2022 Final project
 
+### Dataset:
+For our project we have used the [HINGE](https://aclanthology.org/2021.eval4nlp-1.20.pdf) dataset.
+
 To run our code use the following commands:
 
 #### Training the model on mT5
