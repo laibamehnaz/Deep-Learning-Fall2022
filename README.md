@@ -47,3 +47,12 @@ python evaluateDLproject.py --results_file /pickles/test_results_mBART.pickle
     --save_dir /output/
     --model_name mBART
 ```
+
+## Results 
+
+We obtained the following BLEU and ROUGE score for our models:
+
+| Models       | Bleu           | Rouge-1  | Rouge-L |
+| ------------- |:-------------:| :-----:| :-----:|
+| mBART      | 24.89 | 46.99 | 46.99 |
+| mT5  | 2.28      |   5.34 | 5.34 |
