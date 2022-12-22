@@ -7,7 +7,7 @@ To run our code use the following commands:
 
 #### Training the model on mT5
 ```
-python DLfinalProject.py --output_dir /output/ 
+python DLfinalProject.py --output_dir /pickles/ 
     --train_data_dir /dataset/train_df.csv 
     --test_data_dir /dataset/test_df.csv 
     --val_data_dir /dataset/val_df.csv 
@@ -18,7 +18,7 @@ python DLfinalProject.py --output_dir /output/
 ```
 #### Training the model on mBART
 ```
-python DLfinalProject.py --output_dir /output/ 
+python DLfinalProject.py --output_dir /pickles/ 
     --train_data_dir /dataset/train_df.csv 
     --test_data_dir /dataset/test_df.csv 
     --val_data_dir /dataset/val_df.csv 
