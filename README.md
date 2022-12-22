@@ -50,7 +50,7 @@ python evaluateDLproject.py --results_file /pickles/test_results_mBART.pickle
 
 ## Results 
 
-We obtained the following BLEU and ROUGE score for our models:
+We obtained the following BLEU and ROUGE scores for our models:
 
 | Models       | Bleu           | Rouge-1  | Rouge-L |
 | ------------- |:-------------:| :-----:| :-----:|
