@@ -3,3 +3,4 @@ transformers
 sacrebleu
 evaluate
 sentencepiece
+rouge_score
